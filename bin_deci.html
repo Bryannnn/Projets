@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Conversion binaire-décimale</title>
+        <link rel="stylesheet" type="text/css" href="bin_deci.css">
+    </head>
+    <body>
+        <h1>CONVERTISSEUR DE NOMBRE BINAIRE EN NOMBRE DÉCIMAL ET DE DÉCIMAL À BINAIRE</h1>
+        <form>
+          <header>
+            <div id="binDeci"></div>
+            <div id="deciBin"></div>
+          </header>
+            <fieldset id="conversion_bin_deci">
+              <legend>Conversion binaire-décimale</legend>
+                <label for="binaire">Nombre en binaire</label>
+                <input type="text" id="binaire" name="binaire">
+                <label for="decimal">Nombre en décimal</label>
+                <input type="text" id="decimale" name="decimale" disabled>
+                <input type="button" id="bouton" value="Convertir en décimal" onClick="affichage_bin_deci()" name="bouton">
+                </fieldset>
+            <fieldset id="conversion_deci_bin">
+              <legend>Conversion décimale-binaire</legend>
+                <label for="deci1">Nombre en décimal</label>
+                <input type="text" id="deci1" name="deci1">
+                <label for="bin1">Nombre en binaire</label>
+                <input type="text" id="bin1" name="bin1" disabled>
+                <input type="button" id="bouton" value="Convertir en binaire" onClick="affichage_deci_bin()">
+            </fieldset>
+            <script type="text/javascript" src="bin_deci.js"></script>
+        </form>
+    </body>
+</html>
