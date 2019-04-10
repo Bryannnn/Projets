@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> <!--  balise orpheline-->
+    <title>Cryptage</title> 
+    <link rel="stylesheet" type="text/css" href="../style/cryptage.css">
+    <script type="text/javascript" src="../script/cryptage.js"></script>
+</head>
+   
+    
+<body>
+    
+    <a href="../index.html"><img src="../images/accueil.png" id="accueil"></a>
+    
+    <div id="fond"></div>
+    
+    <h1>[Cacher_un_message] <br>[dans_une_image]</h1>
+    
+    
+    <form>
+        <label for="bit">Voulez vous cacher : </label> <br>
+        <select id="choix" name="type">
+            <option>Un Message</option>
+            <option>Une Image</option>
+        </select>
+    </form> <br> <br>
+    
+    
+    <!-- message a cacher -->
+    <div id="messageForm">
+        <label for="message">Entrez votre message</label><br>
+        <textarea name="message" rows="7" cols="50" id="message" maxlenght="30000"></textarea> <br><br>
+    </div>
+    
+    
+    <!-- Image a cacher -->
+    <form id="image_cacher" enctype="multipart/form-data">
+        <label for="fichier">Selectionner votre image à cacher</label> <br>
+        <input id="image_cache" name="fichier" type="file" accept="image/*"> <br>
+    </form> <br> <br>
+
+    
+    <!-- image où l'on cache le message / image -->
+    <form  enctype="multipart/form-data">
+        <label for="fichier">Selectionner votre image</label> <br>
+        <input id="image_upload" name="fichier" type="file" accept="image/*"> <br>
+    </form> <br> <br>
+    
+    
+    <button id="crypter" type="button">Crypter le message</button>
+    <br> <br> <br>
+    
+
+    
+    <img id="image" src="../images/anonymous.png" alt="">
+    
+    <div id="canvas_display">
+        <h1>[image_cryptee]</h1>
+        <a href="" id="enregistrer" download=""><button type="button">Enregistrer l'image</button></a>
+    </div>
+    <br>
+    <canvas id="canvas"></canvas>
+    
+
+
+
+</body>
+
+</html>

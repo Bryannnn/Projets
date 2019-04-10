@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8"/> <!--  balise orpheline-->
+    <title>Décryptage</title> 
+    <link rel="stylesheet" type="text/css" href="../style/decryptage.css">
+    <script type="text/javascript" src="../script/decryptage.js"></script>
+</head>
+   
+    
+<body>
+    
+    <a href="../index.html"><img src="../images/accueil.png" id="accueil"></a>
+    
+    <h1>[Decrypter_un_message] <br> [depuis_une_image]</h1>
+    
+    
+    <p>Image de départ</p>
+        <input id="image0" name="fichier" accept="image/*" type="file"><br>
+        <img id="image" src="" alt="">
+        <canvas id="canvas"></canvas><br>
+    
+        <p>Longeur du message ?</p>
+        <input type="text" id="length">
+        <button type="button" id="decrypter">Décrypter</button>
+    <p>Message caché</p>
+        <textarea type="text" id="message" rows="7" cols="50" disabled></textarea>
+
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-image: url('../images/paper2.jpg');
+    background-size: cover;
+    font-family: 'typewritter';
+}
+
+h1 {
+    font-family: 'top_secret';
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#image_cacher {
+    display: none;
+}
+
+
+#image {
+    display: block;
+}
+
+#canvas_display, #fin_process, #canvas_cache {
+    display: none;
+}
+
+#image, #image2 , #canvas_cache, #canvas{
+    border: solid;
+    display: block;
+    margin: auto;
+}
+
+#accueil {
+    width: 100px;
+    position: fixed;
+    left: 4%;
+    top: auto;
+    bottom: 5%;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'top_secret';
+    src: url('../font/top_secret.ttf');
+}
+
+@font-face {
+    font-family: 'typewritter';
+    src: url('../font/typewritter.ttf');
+}
