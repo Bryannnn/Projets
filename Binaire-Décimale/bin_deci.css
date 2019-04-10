@@ -1,0 +1,93 @@
+body {
+	background: url(Bin_wp.jpg);
+}
+fieldset{
+    display : none;
+    width:300px;
+    background-color: none;
+    font-family: bin;
+    color:darkred;
+    font-size:22px;
+    border-style:ridge;
+    border-radius:10px;
+    border-width:3px;
+}
+legend{
+    text-align:center;
+}
+input{
+    display:block;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color: black;
+}
+label{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+*{
+    margin-top:10px;
+}
+form{
+    display:block;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top : 10px;
+}
+input[type="button"]{
+	color: whitesmoke;
+	background-color: black;
+	border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+input[type="button"]:hover{
+	color: black;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   background-color: whitesmoke;
+}
+header {
+    display: block;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#binDeci {
+    background-image: url("bin.png");
+    background-repeat: no-repeat;
+    background-size: 128px;
+    float: left;
+}
+#deciBin {
+    background-image: url("deci.jpg");
+    background-repeat: no-repeat;
+    background-size: 128px;
+    float: left;
+    margin-left: 140px;
+    margin-top: -106px;
+}
+div {
+    display: block;
+    border: groove;
+    width: 126px;
+    height: 100px;
+}
+h1 {
+    font-family: 'dot_digital';
+    text-align: center;
+}
+@font-face {
+	font-family: 'dot_digital';
+	src: url('dot_digital.ttf');
+}
