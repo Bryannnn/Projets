@@ -1,6 +1,6 @@
 __________________________________________________PROJET B23 : SNAKE__________________________________________________
 
-Utiliser les flèches directionelles haut et bas pour vous déplacer dans le menu et entrée pour entrer dans un niveau
+Utiliser les flÃ¨ches directionelles haut et bas pour vous dÃ©placer dans le menu et entrÃ©e pour entrer dans un niveau
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -13,7 +13,7 @@ d : droite
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Niveau 1 : on doit appuyer sur les touches pour se déplacer
+Niveau 1 : on doit appuyer sur les touches pour se dÃ©placer
 
 Niveau 2 : le snake avance tout seul
 
